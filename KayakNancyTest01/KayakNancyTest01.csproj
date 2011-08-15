@@ -56,6 +56,9 @@
     <Reference Include="Nancy.Hosting.Owin">
       <HintPath>..\Lib\Nancy.Hosting.Owin.dll</HintPath>
     </Reference>
+    <Reference Include="Nancy.Hosting.Self">
+      <HintPath>..\..\..\..\..\..\..\addons.net\nancy\Nancy\Nancy\build\binaries\Nancy.Hosting.Self.dll</HintPath>
+    </Reference>
     <Reference Include="Nancy.ViewEngines.Razor">
       <HintPath>..\Lib\Nancy.ViewEngines.Razor.dll</HintPath>
     </Reference>
@@ -120,6 +123,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <Content Include="Views\OptionA\TestPage2.cshtml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

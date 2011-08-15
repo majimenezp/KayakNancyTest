@@ -8,7 +8,7 @@ namespace KayakNancyTest01.Controllers
 {
     public class OptionAModule:NancyModule
     {
-        public OptionAModule()
+        public OptionAModule():base("OptionA")
         {
             Get["/"] = x =>
             {
@@ -18,6 +18,10 @@ namespace KayakNancyTest01.Controllers
                 list1.Add(new DBItem(){ Id=3,Description="test3"});
                 var model=new {Title="Option A page",Items=list1};
                 return View["Views/OptionA/Index.cshtml",model];
+            };
+            Get["/test"] = x =>
+            {
+                return View["Views/OptionA/TestPage2.cshtml"];
             };
         }
     }
