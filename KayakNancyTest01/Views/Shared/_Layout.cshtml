@@ -1,0 +1,38 @@
+﻿<html>
+<head>
+    <title>@Model.Title</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+    <div id="header">
+        <div id="menu">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/OptionA">Option A</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="logo">
+        <h1>
+            <a href="/">system</a></h1>
+        <p>
+            <em>subtitle</em></p>
+    </div>
+    <div id="page">
+        <div id="content">
+            <div id="content-bgtop">
+                <div id="content-bgbtm">
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+        <div id="sidebar">
+        </div>
+        <div style="clear: both">
+        </div>
+        <div id="footer">
+            <p></p>
+        </div>
+    </div>
+</body>
+</html>
