@@ -15,7 +15,6 @@ C:\Users\majimenezp\Documents\Visual Studio 2010\Projects\KayakNancyTest01\Kayak
 C:\Users\majimenezp\Documents\Visual Studio 2010\Projects\KayakNancyTest01\KayakNancyTest01\bin\Debug\Gate.dll
 C:\Users\majimenezp\Documents\Visual Studio 2010\Projects\KayakNancyTest01\KayakNancyTest01\bin\Debug\Gate.Helpers.dll
 C:\Users\majimenezp\Documents\Visual Studio 2010\Projects\KayakNancyTest01\KayakNancyTest01\bin\Debug\Gate.Kayak.dll
-C:\Users\majimenezp\Documents\Visual Studio 2010\Projects\KayakNancyTest01\KayakNancyTest01\bin\Debug\HttpMachine.dll
 C:\Users\majimenezp\Documents\Visual Studio 2010\Projects\KayakNancyTest01\KayakNancyTest01\bin\Debug\Kayak.dll
 C:\Users\majimenezp\Documents\Visual Studio 2010\Projects\KayakNancyTest01\KayakNancyTest01\bin\Debug\Nancy.dll
 C:\Users\majimenezp\Documents\Visual Studio 2010\Projects\KayakNancyTest01\KayakNancyTest01\bin\Debug\Nancy.Hosting.Owin.dll
@@ -34,3 +33,4 @@ C:\Users\majimenezp\Documents\Visual Studio 2010\Projects\KayakNancyTest01\Kayak
 C:\Users\majimenezp\Documents\Visual Studio 2010\Projects\KayakNancyTest01\KayakNancyTest01\bin\Debug\Nancy.Hosting.Self.dll
 C:\Users\majimenezp\Documents\Visual Studio 2010\Projects\KayakNancyTest01\KayakNancyTest01\bin\Debug\Nancy.Hosting.Self.pdb
 C:\Users\majimenezp\Documents\Visual Studio 2010\Projects\KayakNancyTest01\KayakNancyTest01\bin\Debug\Views\OptionA\TestPage2.cshtml
+C:\Users\majimenezp\Documents\Visual Studio 2010\Projects\KayakNancyTest01\KayakNancyTest01\bin\Debug\Views\Post.cshtml

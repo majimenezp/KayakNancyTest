@@ -26,6 +26,15 @@ namespace KayakNancyTest01.Controllers
             {
                 return Response.AsImage("Assets/js/" + (string)x.archivo);
             };
+            Get["/Add"] = x =>
+                {
+                    return View["Views/Post.cshtml"];
+                };
+            Post["/Add"] = x =>
+                {
+                    var model = new { Title = "Homepage" };
+                    return View["Views/Index.cshtml", model];
+                };
         }
 
     }
